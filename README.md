@@ -35,24 +35,30 @@ pip install pandas matplotlib seaborn openpyxl
 ```
 
 ## How to Run
-Download the dataset (Global_Superstore2.csv) and place it in your working directory.
-Open the Jupyter Notebook file (Sales_Data_Analysis.ipynb) included in this repository.
-Run the notebook cells step-by-step to load data, clean it, perform analysis, and generate visualizations.
-The analysis results will also be saved in an Excel file (Sales_Analysis.xlsx).
+1.Download the dataset (Global_Superstore2.csv) and place it in your working directory.
+
+2.Open the Jupyter Notebook file (Sales_Data_Analysis.ipynb) included in this repository.
+
+3.Run the notebook cells step-by-step to load data, clean it, perform analysis, and generate visualizations.
+
+4.The analysis results will also be saved in an Excel file (Sales_Analysis.xlsx).
 
 ## Project Structure:
+```
 /Sales_Data_Analysis
 │
 ├── Sales_Data_Analysis.ipynb    # Jupyter notebook containing the full analysis
 ├── Global_Superstore2.csv       # Dataset file (not included, download separately)
 ├── Sales_Analysis.xlsx          # Exported Excel file with summary results (generated after running notebook)
 └── README.md                   # This file
+```
 
 ## Visuals
 Visual charts showing sales trends, top products, and profit by region.
 
 ## Author
 **Anusha Palyam**
+
 Feel free to connect on LinkedIn or contact me for any questions.
 
 ## License
@@ -60,6 +66,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 -Kaggle for the Global Superstore dataset
+
 -Python libraries pandas, matplotlib, seaborn, and openpyxl for analysis and visualization
 
 
